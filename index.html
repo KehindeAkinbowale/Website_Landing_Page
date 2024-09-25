@@ -3,124 +3,292 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Personal Website</title>
     <link rel="icon" href="./images/kenny.png.png" type="images/icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"/>
+     <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+     <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f653781d10/UntitledProject/style.css">
      <link rel="stylesheet" href="main.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     <style>
 </style>
 </head>
 <body>
   <header class="container-fluid page-section-header" style="padding: 11px; background-color: #072242;">
-    <div class="d-flex justify-content-between p-0" style="width: 80%;">
+    <div class="container-fluid d-flex justify-content-between" style="padding: 10px 150px;">
       <div class="d-flex col-10 justify-content-start">
-        <div class="d-flex justify-content-between" style="width: 65%;">
-          <span class="d-flex col-4">
+        <div class="d-flex justify-content-between">
+          <span class="d-flex">
             <i class="bi bi-envelope roboto-regular me-3 text-white fw-semibold"></i>
             <small class="text-white roboto-regular">support@gmail.com</small>
           </span>
-          <span class="d-flex col-8">
+          <span class="d-flex">
             <i class="bi bi-clock roboto-regular me-3 text-white fw-semibold"></i>
             <small class="text-white roboto-regular">Hours: Mon - Sat: 10.00 AM - 4.00 PM</small>
           </span>
         </div>
       </div>
-      <div class="d-flex justify-content-end" style="width: 11%;">
-        <div class="container-fluid p-0 d-flex justify-content-between">
-          <a href="#"><img src="./images/icons8-facebook-24 (1).png" alt="faceook" width="18px" height="18px"></a>
-          <a href="#"><img src="./images/icons8-twitter-24.png" alt="twitter" width="18px" height="18px"></a>
-          <a href="#"><img src="./images/icons8-linkedin-2-24.png" alt="linkedin" width="18px" height="18px"></a>
-          <a href="#"><img src="./images/icons8-youtube-24.png" alt="linkedin" width="18px" height="18px"></a>
-        </div>
+      <div class="container-fluid p-0 d-flex justify-content-between">
+        <a href="#"><img src="./images/icons8-facebook-24 (1).png" alt="faceook" width="18px" height="18px"></a>
+        <a href="#"><img src="./images/icons8-twitter-24.png" alt="twitter" width="18px" height="18px"></a>
+        <a href="#"><img src="./images/icons8-linkedin-2-24.png" alt="linkedin" width="18px" height="18px"></a>
+        <a href="#"><img src="./images/icons8-youtube-24.png" alt="linkedin" width="18px" height="18px"></a>
       </div>
     </div>
   </header>
-  <nav class="container-fluid navbar navbar-expand-xl navbar-section px-3" style="position: sticky; z-index: 99; height: 13vh;">
-    <div class="p-0 d-flex mx-auto justify-content-between navbar-container w-100">
-      <div class="col-3 d-flex align-items-center p-0 nav-item-one">
-        <span class="p-0 navbar-brand">
-          <a href="#" class="navbar-logo">
-            <img src="https://gramentheme.com/wp/wotech/wp-content/themes/wotech/img/logo/logo.svg" 
-            alt="brand-logo" class="w-100 img-fluid" style="object-fit: cover;">
-          </a>
-        </span>
-      </div>
-      <div class="nav-item-two-container" style="width: 65%;">
-        <ul class="navbar-nav nav-menu-container w-100" style="gap: 25px;">
-          <span class="d-flex justify-content-between w-100">
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link active roboto-medium text-primary" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#">About</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#">Services</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#">Pages</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#">Blog</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#">Contact</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <a class="nav-link roboto-medium" href="#"><i class="bi bi-search"></i></a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-              <button class="btn btn-primary rounded-0 nav-button p-3 px-4"> 
-                <small class="roboto-medium">GET A QUOTE  |  <i class="bi bi-arrow-right"></i></small>
-              </button>
-            </li>
+  <div class="bg-white container-fluid m-0 w-100 d-flex align-items-center shadow nav-section" style="position: sticky; z-index: 6; top: 0px; padding: 20px 15px;">
+    <nav class="container-fluid navbar-expand-xl navbar-section p-0 h-100 d-flex align-items-center">
+      <div class="p-0 d-flex mx-auto justify-content-between navbar-container w-100 h-100">
+        <div class="col-3 d-flex align-items-center p-0 nav-item-one">
+          <span class="p-0 navbar-brand">
+            <a href="#" class="navbar-logo">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/themes/wotech/img/logo/logo.svg" 
+              alt="brand-logo" class="w-100 img-fluid" style="object-fit: cover;">
+            </a>
           </span>
-        </ul>
-        <div class="nav-canvas-container">
-          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            <i class="bi bi-filter-right offcanvas-button"></i>
-          </button>
-          <div class="offcanvas offcanvas-end d-flex align-items-end w-100" data-bs-backdrop="static" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
-           style="background-color: #00000091; color: white;">
-          <div class="h-100 border-start border-primary canvas-section" style="background-color: black; width: 60%;">
-            <div class="offcanvas-header p-4 border-bottom border-primary">
-              <span class="offcanvas-title" id="offcanvasExampleLabel">
-                <img src="https://gramentheme.com/wp/wotech/wp-content/themes/wotech/img/logo/logo.svg" alt="off-canvas-logo" height="35px">
-              </span>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
+        </div>
+        <div class="nav-item-two-container d-flex" style="width: 67%; gap: 40px;">
+          <ul class="navbar-nav nav-menu-container col-9">
+            <span class="d-flex justify-content-between w-100">
+              <li class="nav-item d-flex align-items-center dropdown-element-one">
+                <a class="nav-link active text-primary dropdown-link-one fw-semibold" aria-current="page" href="#">Home</a>
+                <div class="dropdown-content-one shadow border-0">
+                  <a href="#">
+                    <small>Home One</small>
+                  </a>
+                  <a href="#">
+                    <small>Home Two</small>
+                  </a>
+                  <a href="#">
+                    <small>Home Three</small>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link roboto-medium-font" href="#">About</a>
+              </li>
+              <li class="nav-item d-flex align-items-center dropdown-element-two">
+                <a class="nav-link roboto-medium-font dropdown-link-two" href="#">Services</a>
+                <div class="dropdown-content-two shadow border-0">
+                  <a href="#">
+                    <small>Service One</small>
+                  </a>
+                  <a href="#">
+                    <small>Services Details</small>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item d-flex align-items-center dropdown-element-three">
+                <a class="nav-link dropdown-link-three roboto-medium-font" href="#">Pages</a>
+                <div class="dropdown-content-three shadow border-0">
+                  <a href="#">
+                    <small>Projects</small>
+                  </a>
+                  <a href="#">
+                    <small>Teams</small>
+                  </a>
+                  <a href="#">
+                    <small>Team Details</small>
+                  </a>
+                  <a href="#">
+                    <small>Faq</small>
+                  </a>
+                  <a href="#">
+                    <small>404 Page</small>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item d-flex align-items-center dropdown-element-four">
+                <a class="nav-link dropdown-link-four roboto-medium-font" href="#">Blog</a>
+                <div class="dropdown-content-four shadow border-0">
+                  <a href="#">
+                    <small>Blog Grid</small>
+                  </a>
+                  <a href="#">
+                    <small>Blog List</small>
+                  </a>
+                  <a href="#">
+                    <small>Blog Details</small>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link roboto-medium-font" href="#">Contact</a>
+              </li>
+            </span>            
+          </ul>
+          <span class="search_box align-items-center">
+            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+          </span>
+          <div class="nav-canvas-container d-flex justify-content-end">
+            <div class="bg-info w-75">
+              <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="bi bi-filter-right offcanvas-button" style="font-size: 60px;"></i>
+              </button>
+              <div class="offcanvas offcanvas-end d-flex align-items-end w-100" data-bs-backdrop="static" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+               style="background-color: #00000091; color: white;">
+              <div class="h-100 border-start border-primary canvas-section" style="background-color: black; width: 60%;">
+                <div class="offcanvas-header p-4 border-bottom border-primary">
+                  <span class="offcanvas-title" id="offcanvasExampleLabel">
+                    <img src="https://gramentheme.com/wp/wotech/wp-content/themes/wotech/img/logo/logo.svg" alt="off-canvas-logo" height="35px">
+                  </span>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <!--<span class="list_button align-items-center">
+          <button class="rounded-0 button" style="padding: 18px 20px;">
+            <small class="roboto-medium-font nav-text text-white" style="z-index: 9; position: relative;">GET A QUOTE  
+              <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9;"> 
+              <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9;"></i>
+            </small>
+          </button>
+        </span>-->
+      </div>
+    </nav>
+  </div>
+  <section class="container-fluid p-0 m-0">
+    <div class="swiper">
+      <div id="default-swiper-container banner-active" class="carousel-swiper">
+        <div class="swiper-wrapper" style="transform: translate3d(0px, 0, 0); ">
+          <div class="swiper-slide swiper-slide-duplicate" style="transition-property: opacity">
+            <div class="banner-main" style="background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/banner-1.png);">
+              <div class="small-container" style="max-width: 1620px; margin: 0 auto; padding: 0 15px;">
+               <div class="banner-area position-relative custom-animate-left d-flex flex-column" style="visibility: visible; animation-delay: 1500ms; animation-name: animate-left; animation-duration: 1.35s; max-width: 720px;">
+                <span class="position-relative banner-sub-title"> 
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">TECHNOLOGY CONSULTANCY
+                </span>
+                <h1 class="banner-title mb-0">Make The Easiest Solution For You</h1>
+                <p class="banner-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                <div class="banner-btn-area d-flex" style="gap: 20px;">
+                  <a class="primary-btn-1 btn-hover btn btn-primary rounded-0 inter-medium-font" href="#" style="padding: 20px 24px;">
+                    EXPLORE MORE
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9;"></i>
+                  </a>
+                  <a href="#">
+                    <div class="carousel-video-link d-flex">
+                      <div class="video-link-container d-flex align-items-center justify-content-center rounded-circle position-relative" style="border: 1px solid #fff; width: 56px; height: 56px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16" style="z-index: 5;">
+                          <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span class="ms-3 text-white">How it Works</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-duplicate">
+            <div class="banner-main" style="background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/slider-1.png);">
+              <div class="small-container" style="max-width: 1620px; margin: 0 auto; padding: 0 15px;">
+               <div class="banner-area position-relative custom-animate-left d-flex flex-column" style="visibility: visible; animation-delay: 1500ms; animation-name: animate-left; animation-duration: 1.35s; max-width: 720px;">
+                <span class="position-relative banner-sub-title"> 
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">TECHNOLOGY CONSULTANCY
+                </span>
+                <h1 class="banner-title mb-0">Make The Easiest Solution For You</h1>
+                <p class="banner-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                <div class="banner-btn-area d-flex" style="gap: 20px;">
+                  <a class="primary-btn-1 btn-hover btn btn-primary rounded-0 inter-medium-font" href="#" style="padding: 20px 24px;">EXPLORE MORE
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9;"></i>
+                  </a>
+                  <a href="#">
+                    <div class="carousel-video-link d-flex">
+                      <div class="video-link-container d-flex align-items-center justify-content-center rounded-circle position-relative" style="border: 1px solid #fff; width: 56px; height: 56px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16" style="z-index: 5;">
+                          <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span class="ms-3 text-white">How it Works</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-duplicate">
+            <div class="banner-main" style="background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/slider-2.png);">
+              <div class="small-container" style="max-width: 1620px; margin: 0 auto; padding: 0 15px;">
+               <div class="banner-area position-relative custom-animate-left d-flex flex-column" style="visibility: visible; animation-delay: 1500ms; animation-name: animate-left; animation-duration: 1.35s; max-width: 720px;">
+                <span class="position-relative banner-sub-title"> 
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">TECHNOLOGY CONSULTANCY
+                </span>
+                <h1 class="banner-title mb-0">Make The Easiest Solution For You</h1>
+                <p class="banner-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                <div class="banner-btn-area d-flex" style="gap: 20px;">
+                  <a class="primary-btn-1 btn-hover btn btn-primary rounded-0 inter-medium-font" href="#" style="padding: 20px 24px;">
+                    EXPLORE MORE
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9;"></i>
+                  </a>
+                  <a href="#">
+                    <div class="carousel-video-link d-flex">
+                      <div class="video-link-container d-flex align-items-center justify-content-center rounded-circle position-relative" style="border: 1px solid #fff; width: 56px; height: 56px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16" style="z-index: 5;">
+                          <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <span class="ms-3 text-white">How it Works</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="default-swiper-pagination" class="swiper-pagination"></div>
       </div>
     </div>
-  </nav>
-  <section id="carouselExampleSlidesOnly carousel-section-container container-fluid p-0 m-0 w-100" class="carousel carousel-fade slide">
+  </section>
+  <!--<section id="carouselExampleSlidesOnly carousel-section-container container-fluid p-0 m-0 w-100" class="carousel carousel-fade slide" style="z-index: 5;" data-bs-ride="carousel">
     <div class="carousel-inner h-100">
-      <div class="carousel-item active w-100 p-0 h-100">
-        <div class="carousel-img-container w-100" style='background-image: url("https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/banner-1.png"); background-repeat: no-repeat;'>
-         <div class="carousel-content-container w-100 h-100 d-flex align-items-center">
-          <div class="carousel-text-container d-flex flex-column mx-auto" style="height: 60%;"> <!--style="width: 85%; gap: 70px; margin-top: 100px;"-->
+      <div class="carousel-item active p-0 d-flex align-items-center h-100 w-100" style='background-image: url("./images/banner-2\ \(1\).png"); background-repeat: no-repeat; background-position: 7% 0%;'>
+        <div class="carousel-background-overlay h-100 d-flex align-items-center w-100" style=" background-image: linear-gradient(to right, #051427, #04152cd7, rgba(255, 255, 255, 0.082));">
+         <div class="carousel-content-container d-flex">
+          <div class="carousel-text-container d-flex flex-column mx-auto"> <!--style="width: 85%; gap: 70px; margin-top: 100px;"
             <div class="carousel-text-item p-0 d-flex flex-column">
               <span class="d-flex">
-                <h5 class="text-white carosuel-header-subtitle">TECHNOLOGY CONSULTANCY</h5>
+                <span class="d-flex align-items-center">
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">
+                </span>
+                <span class="d-flex align-items-center">
+                  <h5 class="text-white carosuel-header-subtitle mb-0">TECHNOLOGY CONSULTANCY</h5>
+                </span>
               </span>
               <span class="carousel-hero-text">
-                <h2 class="display-3 fw-semibold text-white carousel-title-text">Make The Easiest Solutions For You</h2>
-                <p class="roboto-medium text-white carousel-paragrapgh-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
+                <h2 class="display-2 fw-semibold text-white carousel-title-text pb-0">Make The Easiest Solutions For You</h2>
+                <p class="roboto-medium text-white mb-5 carousel-paragraph-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
                   arms of pleasure
                 </p>
               </span>
               <span class="d-flex carousel-info-container flex-wrap" style="gap: 25px">
-                <button class="btn btn-primary rounded-0 p-3 px-4"> 
-                  <small class="roboto-medium">EXPLORE MORE  |  <i class="bi bi-arrow-right"></i></small>
+                <button class="rounded-0 button" style="padding: 18px 20px;"> 
+                  <small class="roboto-medium-font nav-text text-white" style="z-index: 9999; position: relative;">GET A QUOTE  
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9999;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9999;"></i>
+                  </small>
                 </button>
                 <span class="d-flex">
                   <span class="p-3 rounded-circle border">
@@ -136,71 +304,88 @@
          </div>
         </div>  
       </div>
-      <div class="carousel-item w-100 p-0 h-100">
-        <div class="carousel-img-container w-100" style='background-image: url("./images/slider-2\ \(1\).png"); background-repeat: no-repeat;'>
-         <div class="carousel-content-container w-100 h-100 d-flex align-items-center">
-          <div class="carousel-text-container d-flex flex-column mx-auto" style="height: 60%;"> <!--style="width: 85%; gap: 70px; margin-top: 100px;"-->
+      <div class="carousel-item p-0 d-flex align-items-center h-100 w-100" style='background-image: url("https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/slider-1.png"); background-repeat: no-repeat; background-position: 70% 0%;'>
+        <div class="carousel-background-overlay h-100 d-flex align-items-center w-100" style=" background-image: linear-gradient(to right, #051427, #04152cd7, rgba(255, 255, 255, 0.082));">
+         <div class="carousel-content-container d-flex">
+          <div class="carousel-text-container d-flex flex-column mx-auto">
             <div class="carousel-text-item p-0 d-flex flex-column">
               <span class="d-flex">
-                <h5 class="text-white carosuel-header-subtitle">TECHNOLOGY CONSULTANCY</h5>
+                <span class="d-flex align-items-center">
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">
+                </span>
+                <span class="d-flex align-items-center">
+                  <h5 class="text-white carosuel-header-subtitle mb-0">TECHNOLOGY CONSULTANCY</h5>
+                </span>
               </span>
               <span class="carousel-hero-text">
-                <h2 class="display-3 fw-semibold text-white carousel-title-text">Make The Easiest Solutions For You</h2>
-                <p class="roboto-medium text-white carousel-paragrapgh-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
+                <h2 class="display-2 fw-semibold text-white carousel-title-text pb-0">Make The Easiest Solutions For You</h2>
+                <p class="roboto-medium text-white carousel-paragraph-text mb-5">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
                   arms of pleasure
                 </p>
               </span>
-            </div>
-            <span class="d-flex carousel-info-container flex-wrap" style="gap: 25px">
-              <button class="btn btn-primary rounded-0 p-3 px-4"> 
-                <small class="roboto-medium">EXPLORE MORE  |  <i class="bi bi-arrow-right"></i></small>
-              </button>
-              <span class="d-flex">
-                <span class="p-3 rounded-circle border">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
-                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
-                  </svg>
+              <span class="d-flex carousel-info-container flex-wrap" style="gap: 25px">
+                <button class="rounded-0 button" style="padding: 18px 20px;"> 
+                  <small class="roboto-medium-font nav-text text-white" style="z-index: 9999; position: relative;">GET A QUOTE  
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9999;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9999;"></i>
+                  </small>
+                </button>
+                <span class="d-flex">
+                  <span class="p-3 rounded-circle border">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                    </svg>
+                  </span>
+                  <p class="roboto-medium lead my-auto text-white ms-2 paragraph-text">How it Works</p>
                 </span>
-                <p class="roboto-medium lead my-auto text-white ms-2">How it Works</p>
               </span>
-            </span>
+            </div>
           </div>
          </div>
         </div>  
       </div>
-      <div class="carousel-item w-100 p-0 h-100">
-        <div class="carousel-img-container w-100" style='background-image: url("./images/slider-1\(1\).png"); background-repeat: no-repeat;'>
-         <div class="carousel-content-container w-100 h-100 d-flex align-items-center">
-          <div class="carousel-text-container d-flex flex-column mx-auto" style="height: 60%;"> <!--style="width: 85%; gap: 70px; margin-top: 100px;"-->
+      <div class="carousel-item p-0 d-flex align-items-center h-100 w-100" style='background-image: url("./images/slider-2\ \(1\).png"); background-repeat: no-repeat;'>
+        <div class="carousel-background-overlay h-100 d-flex align-items-center w-100" style=" background-image: linear-gradient(to right, #051427, #04152cd7, rgba(255, 255, 255, 0.082));">
+         <div class="carousel-content-container d-flex">
+          <div class="carousel-text-container d-flex flex-column mx-auto">
             <div class="carousel-text-item p-0 d-flex flex-column">
               <span class="d-flex">
-                <h5 class="text-white carosuel-header-subtitle">TECHNOLOGY CONSULTANCY</h5>
+                <span class="d-flex align-items-center">
+                  <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px" class="me-2">
+                </span>
+                <span class="d-flex align-items-center">
+                  <h5 class="text-white carosuel-header-subtitle mb-0">TECHNOLOGY CONSULTANCY</h5>
+                </span>
               </span>
               <span class="carousel-hero-text">
-                <h2 class="display-3 fw-semibold text-white carousel-title-text">Make The Easiest Solutions For You</h2>
-                <p class="roboto-medium text-white carousel-paragrapgh-text">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
+                <h2 class="display-2 fw-semibold text-white carousel-title-text pb-0">Make The Easiest Solutions For You</h2>
+                <p class="roboto-medium text-white carousel-paragraph-text mb-5">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the 
                   arms of pleasure
                 </p>
               </span>
-            </div>
-            <span class="d-flex carousel-info-container flex-wrap" style="gap: 25px">
-              <button class="btn btn-primary rounded-0 p-3 px-4"> 
-                <small class="roboto-medium">EXPLORE MORE  |  <i class="bi bi-arrow-right"></i></small>
-              </button>
-              <span class="d-flex">
-                <span class="p-3 rounded-circle border">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
-                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
-                  </svg>
+              <span class="d-flex carousel-info-container flex-wrap" style="gap: 25px">
+                <button class="rounded-0 button" style="padding: 18px 20px;"> 
+                  <small class="roboto-medium-font nav-text text-white" style="z-index: 9999; position: relative;">GET A QUOTE  
+                    <img src="./images/icons8-vertical-line-20.png" alt="" height="16px" style="z-index: 9999;"> 
+                    <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;" style="z-index: 9999;"></i>
+                  </small>
+                </button>
+                <span class="d-flex">
+                  <span class="p-3 rounded-circle border">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                    </svg>
+                  </span>
+                  <p class="roboto-medium lead my-auto text-white ms-2 paragraph-text">How it Works</p>
                 </span>
-                <p class="roboto-medium lead my-auto text-white ms-2">How it Works</p>
               </span>
-            </span>
+            </div>
           </div>
          </div>
         </div>  
       </div>
-      <div class="image-overlay-container w-50" id="carousel-banner" style="position: absolute; top: 534px; left: 700px; z-index: 99;">
+    </div>
+      <div class="image-overlay-container w-50" id="carousel-banner" style="position: absolute; top: 452px; left: 548px; z-index: 99;">
         <img src="./images/shape-5.png" alt="image-overlay">
       </div>
       <div class="image-overlay-container-two w-50">
@@ -216,83 +401,838 @@
         <img src="./images/shape-1.png" alt="image-overlay">
       </div>
     </div>
-  </section>
-  <section class="container-fluid d-flex justify-content-center my-4 px-0 m-0 py-5" style="background-image: url(./images/bg-shape-1.png); background-repeat: no-repeat; background-position-y: bottom;">
-    <div class="p-0 d-flex" style="width: 85%;">
-      <div class="d-flex justify-content-start py-5 px-0" style="width: 56%;">
-        <div class="container-fluid p-0">
-          <div class="grid-container" style="width: 90%;">
-            <div class="picture-one-grid w-100 p-0">
-             <figure class="p-0 m-0 w-100 h-100">
-               <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-1.jpg" alt="picture" class="w-100 h-100">
-             </figure>
+  </section>-->
+  <section class="d-flex justify-content-center w-100" style="background-image: url(./images/bg-shape-1.png); background-repeat: no-repeat; background-position-y: bottom; padding-top: 120px; padding-bottom: 120px;">
+    <div class="d-flex container-fluid our-service-container">
+      <div class="col-sm-12 col-xxl-6 col-xl-6 col-lg-6 our-service-item-1">
+        <div class="about-us-image-area position-relative">
+          <div class="border-shape position-absolute"></div>
+          <figure class="p-0 m-0 image-1">
+            <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-1.jpg" alt="picture">
+          </figure>
+          <div class="image-area position-absolute" style="z-index: 1; right: 0; bottom: 71px;">
+            <div class="image-2 position-relative">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-2.jpg" alt="picture">
             </div>
-            <div class="picture-two-grid d-grid bg-white shadow">
-             <figure class="p-0 m-0 w-100 d-flex p-2 justify-content-center">
-               <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-2.jpg" alt="picture" class="img-fluid">
-             </figure>
+            <div class="player-box position-absolute " style="top: 50%; left: 50%;transform: translate(-50%, -50%)">
+              <div class="video-player-btn">
+                <a href="#" class="m-0 d-flex justify-content-center align-items-center position-relative" style="border-radius: 50%;color: #fff;z-index: 2;font-size: 28px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                  </svg>
+                </a>
+              </div>
             </div>
-            <div></div>
-            <div></div>
-            <div class="grid-line-drawer border-end border-top border-primary border-5"></div>
+          </div>
+          <div class="working-area">
+           <div class="inner-content position-relative">
+            <div class="icon-batch d-flex flex-column">
+              <span class="icon-medal text-white" style="font-size: 3.5rem;"></span>
+              <h4 class="text-white inter-medium-font"><span class="counter">25</span> Years</h4>
+               <p class="text-white">Working Experience</p>
+            </div>
            </div>
+          </div>
         </div>
       </div>
-      <div class="d-flex container-fluid p-0 py-5 px-0" style="gap: 25px; width: 44%;">
-        <div class="container-fluid p-0 d-flex flex-column">
-          <span class="d-flex flex-column container-fluid p-0">
-            <span class="d-flex">
-              <span>1</span>
-              <h6 class="fw-semibold lead">ABOUT US</h6>
+      <div class="col-sm-12 col-xxl-6 col-xl-6 col-lg-6 our-service-item-2">
+        <div class="about-section-two postion-relative d-flex flex-column">
+          <div class="d-flex flex-column" style="margin-bottom: 35px;">
+            <span class="section-sub-title">
+              <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+              ABOUT US
             </span>
-            <h3 class="about-section-header display-6">Selecting the Finest IT Service Provider</h3>
+            <h3 class="section-title mt-10 inter-bold-font" style="font-size: 36px; font-weight: 700;">Selecting the Finest IT Service Provider</h3>
+          </div>
+          <p class="mb-35" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft; margin-bottom: 35px;">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.</p>
+          <div class="d-flex justify-content-between" style="margin-bottom: 20px;">
+            <div class="service-icon d-flex align-items-center justify-content-center" style="width: 17%;">
+              <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-three-icon1.png" alt="">
+            </div>
+            <span class="d-flex flex-column d-flex" style="width: 88%;">
+              <div class="content">
+                <h5 class="inter-medium-font"><a href="https://gramentheme.com/wp/wotech/services_grid/">Business Growth</a></h5>
+                <p>Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+              </div>
+            </span>
+          </div>
+          <div class="d-flex justify-content-between" style="margin-bottom: 20px;">
+            <div class="service-icon d-flex align-items-center justify-content-center" style="width: 17%;">
+              <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-three-icon1.png" alt="">
+            </div>
+            <span class="d-flex flex-column d-flex" style="width: 88%;">
+              <div class="content">
+                <h5 class="inter-medium-font"><a href="https://gramentheme.com/wp/wotech/services_grid/">Business Growth</a></h5>
+                <p>Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+              </div>
+            </span>
+          </div>
+          <button class="rounded-0 button" style="padding: 18px 20px; width: 40%;">
+            <small class="roboto-medium-font nav-text text-white" style="position: relative;">ABOUT US
+              <img src="./images/icons8-vertical-line-20.png" alt="" height="16px"> 
+              <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;"></i>
+            </small>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid p-0 pt-5 service-section-container" style="background-color: #102039;">
+    <div class="mx-auto d-flex flex-column p-0 service-content-wrapper" style="margin-top: 80px;">
+      <div class="container-fluid p-0 m-0">
+        <span class="d-flex">
+          <span class="d-flex align-items-start">
+            <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
           </span>
-          <span class="d-flex flex-column w-100" style="gap: 25px;">
-            <span>
-              <p class="text-muted">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.</p>
+          <span class="d-flex align-items-center">
+            <p class="fw-semibold mb-0 ms-2 text-primary">SERVICES WE ARE OFFERING</p>
+          </span>
+        </span>
+        <h3 class="about-section-header mb-4 text-white" style="font-size: 40px; font-weight: 700; line-height: 46px;;">Exclusive IT Services</h3>
+        <div class="d-flex container-fluid p-0" style="gap: 46px; margin-top: 80px;">
+          <div class="swiper-button-prev border p-4 rounded-circle" style="background-color: none; color: white; position: relative; width: 30px; height: 30px; border-color: #1a1616;"></div>
+          <div class="swiper-button-next border p-4 rounded-circle" style="background-color: none; color: white; position: relative; width: 30px; height: 30px; border-color: #6b6b6b;"></div>
+        </div>
+      </div>
+      <div class="container-fluid p-0 w-100 swiper mt-5">
+        <div class="container-fluid p-0 m-0 service-slide-container w-100">
+          <div class="container-fluid d-flex slide-container p-0 swiper-wrapper">
+            <div class="card rounded-0 border-0 swiper-slide">
+              <div class="container-fluid p-0 overflow-hidden">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/service-6.jpg" alt="" class="card-img-container w-100">
+              </div>
+              <div class="card-body">
+                <!--<span class="service-icon bg-white">
+                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/icon-2.png" alt="service-icon" width="40px">
+                </span>-->
+                <h3 class="card-header-text"><a href="#" >App development</a></h3>
+                <p class="service-card-text">Lorem ipsum dolor sit amet, is consectetur adipisci elit. Integer feugiat tortor non there are many other nullam.</p>
+                <a href="#">
+                  <small class="text-dark fw-semibold">
+                    Read More <img src="./images/icons8-double-arrow-12.png" alt="">
+                  </small>
+                </a>
+              </div>
+            </div>
+            <div class="card rounded-0 border-0 swiper-slide">
+              <div class="container-fluid p-0 overflow-hidden">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/service-7.jpg" alt="" class="card-img-container w-100">
+              </div>
+              <div class="card-body">
+                <!--<span class="service-icon bg-white">
+                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/icon-2.png" alt="service-icon" width="40px">
+                </span>-->
+                <h3 class="card-header-text"><a href="#" >Technology Consultancy</a></h3>
+                <p class="service-card-text">Lorem ipsum dolor sit amet, is consectetur adipisci elit. Integer feugiat tortor non there are many other nullam.</p>
+                <a href="#">
+                  <small class="text-dark fw-semibold">
+                    Read More <img src="./images/icons8-double-arrow-12.png" alt="">
+                  </small>
+                </a>
+              </div>
+            </div>
+            <div class="card rounded-0 border-0 swiper-slide">
+              <div class="container-fluid p-0 overflow-hidden">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/service-4.jpg" alt="" class="card-img-container w-100">
+              </div>
+              <div class="card-body">
+                <!--<span class="service-icon bg-white">
+                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/icon-2.png" alt="service-icon" width="40px">
+                </span>-->
+                <h3 class="card-header-text"><a href="#">Database Security</a></h3>
+                <p class="service-card-text">Lorem ipsum dolor sit amet, is consectetur adipisci elit. Integer feugiat tortor non there are many other nullam.</p>
+                <a href="#">
+                  <small class="text-dark fw-semibold">
+                    Read More <img src="./images/icons8-double-arrow-12.png" alt="">
+                  </small>
+                </a>
+              </div>
+            </div>
+            <div class="card rounded-0 border-0 swiper-slide">
+              <div class="container-fluid p-0 overflow-hidden">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/service-5.jpg" alt="" class="card-img-container w-100">
+              </div>
+              <div class="card-body">
+                <!--<span class="service-icon bg-white">
+                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/icon-2.png" alt="service-icon" width="40px">
+                </span>-->
+                <h3 class="card-header-text">
+                 <a href="#">Technology Consultancy</a>
+                </h3>
+                <p class="service-card-text">Lorem ipsum dolor sit amet, is consectetur adipisci elit. 
+                  Integer feugiat tortor non there are many other nullam.</p>
+                <a href="#">
+                  <small class="fw-semibold">
+                    Read More <img src="./images/icons8-double-arrow-12.png" alt="">
+                  </small>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="container-fluid p-0 m-0 d-flex inquiry-section-container bg-white shadow" style="position: relative; top: 130px;">
+        <div class="col-lg-6 col-xxl-6">
+          <figure class="mb-0 inquiry-figure-image h-100 w-100">
+            <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/cta-1.jpg" alt="picture" class="w-100 h-100">
+          </figure>
+        </div>
+        <div class="col-lg-6 col-xxl-6 d-flex align-items-center info-desk-container" style="position: relative; top: 0;">
+          <div style="position: relative; padding: 2.5rem; height: 100%;" class="w-100">
+            <div style="position: absolute; top: 0; right: 0; width: 100%; height: 100%; background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/shape-12.png);
+             background-repeat: no-repeat; background-position: center right; opacity: 0.1"></div>
+            <h3 class="text-dark info-desk-text inter-medium-font">Need Any Roofing Help ?</h3>
+            <h5><a href="tel:2085550112">+208-555-0112</a></h5>
+            <span class="icon-box bg-primary rounded-circle">
+              <img src="./images/icons8-phone-call-32.png" alt="">
             </span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="w-100" style="padding-top: 15rem;">
+    <div class="d-flex flex-column p-0 m-0 mx-auto" style="width: 87%;">
+      <div class="d-flex flex-column p-0 m-0">
+        <div class="d-flex">
+          <span class="d-flex align-items-start">
+            <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+          </span>
+          <span class="d-flex align-items-center">
+            <h6 class="fw-semibold lead mb-0 ms-2 text-primary">PROJECTS</h6>
+          </span>
+        </div>
+        <h3 class="about-section-header text-dark" style="font-size: 40px; font-weight: 700; line-height: 46px;;">Our Latest Projects</h3>
+        <div class="d-flex container-fluid p-0" style="gap: 46px; margin-top: 80px;">
+          <div class="swiper-button-prev border p-4 rounded-circle" style="background-color: none; color: rgb(63, 63, 250); position: relative; width: 30px; height: 30px; border-color: rgb(63, 63, 250);"></div>
+          <div class="swiper-button-next border p-4 rounded-circle" style="background-color: none; color: rgb(63, 63, 250); position: relative; width: 30px; height: 30px; border-color: rgb(63, 63, 250);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="g-0 swiper m-0" style="padding-top: 3rem; padding-bottom: 6rem;">
+      <div class="p-0 m-0 w-100 g-0 swiper-two-container">
+        <div class="d-flex slide-container p-0 swiper-wrapper g-0">
+          <div class="rounded-0 border-0 swiper-slide project_box">
+            <div class="container-fluid p-0 overflow-hidden">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/project-1-550x439.png" alt="" class="w-100">
+              <div class="project-content d-flex p-relative">
+                <div class="d-flex flex-column container-fluid m-0 project-content-one">
+                  <h6 style="font-size: 20px;">Security</h6>
+                  <h5 style="font-size: 22px;"><a href="#">Network Security</a></h5>
+                </div>
+                <div class="project-content-two">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #ffffff; font-size: 25px; --fa-rotate-angle: 310deg;""></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-0 border-0 swiper-slide project_box">
+            <div class="container-fluid p-0 overflow-hidden">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/project-2-550x439.png" alt="" class="w-100">
+              <div class="project-content d-flex p-relative">
+                <div class="d-flex flex-column container-fluid m-0 project-content-one">
+                  <h6 style="font-size: 20px;">Technology</h6>
+                  <h5 style="font-size: 22px;"><a href="#">IT Management</a></h5>
+                </div>
+                <div class="project-content-two">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #ffffff; font-size: 25px; --fa-rotate-angle: 310deg;""></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-0 border-0 swiper-slide project_box">
+            <div class="container-fluid p-0 overflow-hidden">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/project-3-550x439.png" alt="" class="w-100">
+              <div class="project-content d-flex p-relative">
+                <div class="d-flex flex-column container-fluid m-0 project-content-one">
+                  <h6 style="font-size: 20px;">Solution</h6>
+                  <h5 style="font-size: 22px;"><a href="#">Web development</a></h5>
+                </div>
+                <div class="project-content-two">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #ffffff; font-size: 25px; --fa-rotate-angle: 310deg;""></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rounded-0 border-0 swiper-slide project_box">
+            <div class="container-fluid p-0 overflow-hidden">
+              <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/project-2-550x439.png" alt="" class="w-100">
+              <div class="project-content d-flex p-relative">
+                <div class="d-flex flex-column container-fluid m-0 project-content-one">
+                  <h6 style="font-size: 20px;">Technology</h6>
+                  <h5 style="font-size: 22px;"><a href="#">IT Management</a></h5>
+                </div>
+                <div class="project-content-two">
+                  <a href="#">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #ffffff; font-size: 25px; --fa-rotate-angle: 310deg;""></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid p-0 m-0 choose-section" style="background-color: #102039; background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/shape-15.png); background-repeat: no-repeat; position: relative; background-size: contain;">
+    <div class="bg-image container-fluid">
+       <div class="container-fluid d-flex m-0 mx-auto why-us-container" style="padding: 100px 0px;">
+        <div class="d-flex flex-column col-sm-10 col-lg-8 col-xl-6 col-xxl-6 why-us-item-one">
+          <div class="d-flex flex-column">
+            <div class="d-flex">
+              <span class="d-flex align-items-start">
+                <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+              </span>
+              <span class="d-flex align-items-center">
+                <p class="fw-semibold mb-2 ms-2 text-primary inter-medium-font ">WHY CHOOSE US</p>
+              </span>
+            </div>
+            <h3 class="about-section-header text-white" style="font-size: 40px; font-weight: 700; line-height: 46px;;">What Makes Us Different</h3> 
+          </div>
+          <div class="d-flex flex-column p-0 mt-5">
+            <div class="d-flex justify-content-between mb-4">
+              <div class="d-flex align-items-center justify-content-center icon_box" style="width: 90px; height: 90px; padding: 20px; position: relative;">
+                <span class="icon-compass" style="font-size: 3.5rem;"></span>
+              </div>
+              <div class="d-flex flex-column" style="width: 80%;">
+                <h5>
+                  <a class="text-white" href="https://gramentheme.com/wp/wotech/services_grid/" >Commercial Roofing</a>
+                </h5>
+                <p class="text-white">Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mb-4">
+              <div class="d-flex align-items-center justify-content-center icon_box" style="width: 90px; height: 90px; padding: 20px; position: relative;">
+                <span class="icon-target-arrow" style="font-size: 3.5rem;"></span>
+              </div>
+              <div class="d-flex flex-column" style="width: 80%;">
+                <h5>
+                  <a class="text-white" href="https://gramentheme.com/wp/wotech/services_grid/" >Commercial Roofing</a>
+                </h5>
+                <p class="text-white">Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mb-4">
+              <div class="d-flex align-items-center justify-content-center icon_box" style="width: 90px; height: 90px; padding: 20px; position: relative;">
+                <span class="icon-target-arrow" style="font-size: 3.5rem;"></span>
+              </div>
+              <div class="d-flex flex-column" style="width: 80%;">
+                <h5>
+                  <a class="text-white" href="https://gramentheme.com/wp/wotech/services_grid/" >Commercial Roofing</a>
+                </h5>
+                <p class="text-white">Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 col-xxl-6 why-us-item-two" style="padding: 0rem 4.5rem;">
+          <figure class="mb-0">
+             <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/choose-1.png" alt="" class="img-fluid">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid" style="background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/shape-13.png); background-repeat: no-repeat;">
+    <div class="container-fluid px-0 d-flex flex-column align-items-center" style="padding: 7.3rem 0rem;">
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-center">
+          <span class="d-flex align-items-start">
+            <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+          </span>
+          <span class="d-flex align-items-center">
+            <p class="fw-semibold ms-2 text-primary inter-medium-font">OUR TEAM</p>
+          </span>
+        </div>
+        <h3 class="about-section-header text-dark" style="font-size: 40px; font-weight: 700; line-height: 46px;">Our Leadership Team</h3>
+      </div>
+      <div class="container-fluid p-0 d-flex justify-content-between mt-5 flex-wrap team-card-wrapper">
+        <div class="team-card-container position-relative">
+          <figure>
+            <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/team-1.jpg" alt="picture" class="w-100">
+          </figure>
+          <div class="team-content-overlay">
+            <div class="d-flex flex-column">
+              <h4 class="mb-2 text-dark inter-medium-font"><a href="/wp/wotech/team-details/" style="font-size: 22px; color: black; text-decoration: none; font-weight: 580px; letter-spacing: 0.3px;">Kristin Watson</a></h4>
+              <span class="text-muted">Project Manager</span>
+            </div>
+            <div class="bg-primary" style="padding: 9px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-container position-relative">
+          <figure>
+            <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/team-2.jpg" alt="picture" class="w-100">
+          </figure>
+          <div class="team-content-overlay">
+            <div class="d-flex flex-column">
+              <h4 class="mb-2 text-dark inter-medium-font"><a href="/wp/wotech/team-details/" style="font-size: 22px; color: black; text-decoration: none; font-weight: 580px; letter-spacing: 0.3px;">Annette Black</a></h4>
+              <span class="text-muted">Senior QA Engineer</span>
+            </div>
+            <div class="bg-primary" style="padding: 9px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="team-card-container position-relative">
+          <figure>
+            <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/team-3.jpg" alt="picture" class="w-100">
+          </figure>
+          <div class="team-content-overlay">
+            <div class="d-flex flex-column">
+              <h4 class="mb-2 text-dark inter-medium-font"><a href="/wp/wotech/team-details/" style="font-size: 22px; color: black; text-decoration: none; font-weight: 580px; letter-spacing: 0.3px;">Ralph Edwards</a></h4>
+              <span class="text-muted">Engineer</span>
+            </div>
+            <div class="bg-primary" style="padding: 9px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="d-flex testimonial-section">
+    <div class="col-4 testimonial-item-one">
+      <div class="testimonial-video-container">
+        <figure class="mb-0">
+          <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/testimonial-lg-img.png" alt="testimonial" class="w-100 h-100">
+        </figure>
+      </div>
+    </div>
+    <div class="col-8 testimonial-item-two" style="background-color: #102039;">
+      <div class="py-5 d-flex flex-column" style="background-image: url(https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/shape-36.png); background-repeat: no-repeat; background-position: center; background-size: contain;">
+        <div class="d-flex flex-column">
+          <div class="d-flex">
+            <span class="d-flex align-items-start">
+              <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+            </span>
+            <span class="d-flex align-items-center ms-2">
+              <p class="fw-semibold text-primary inter-medium-font m-0">TESTIMONIALS</p>
+            </span>
+          </div>
+          <h3 class="about-section-header text-white" style="font-size: 40px; font-weight: 700; line-height: 46px;">Our Client Feedback</h3>
+        </div>
+        <div class="g-0 swiper m-0" style="padding-top: 3rem;">
+          <div class="p-0 m-0 w-100 g-0 swiper-three-container">
+            <div class="d-flex slide-three-container p-0 swiper-wrapper g-0">
+              <div class="rounded-0 border-0 swiper-slide">
+                <div class="container-fluid d-flex justify-content-end p-0 m-0 testimonial-card-container">
+                  <figure class="testimonial-img mb-0">
+                    <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/testimonials-2.png" alt="" class="rounded-circle">
+                  </figure>
+                  <div class="d-flex flex-column bg-white testimonial-card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-flex flex-column mt-3">
+                        <h5 class="inter-medium-font mb-1">Kathryn Murphy</h5>
+                        <p class="text-muted">Engineering</p>
+                      </span>
+                      <span class="d-flex">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                      </span>
+                    </div>
+                    <span class="mt-2">
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                    </span>
+                    <p class="mt-4 text-muted">Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean</p>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-0 border-0 swiper-slide">
+                <div class="container-fluid d-flex justify-content-end p-0 m-0 testimonial-card-container">
+                  <figure class="testimonial-img">
+                    <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/testimonials-2.png" alt="" class="rounded-circle">
+                  </figure>
+                  <div class="d-flex flex-column bg-white testimonial-card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-flex flex-column mt-3">
+                        <h5 class="inter-medium-font mb-1">Kathryn Murphy</h5>
+                        <p class="text-muted">Engineering</p>
+                      </span>
+                      <span class="d-flex">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                      </span>
+                    </div>
+                    <span class="mt-2">
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                    </span>
+                    <p class="mt-4 text-muted">Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean</p>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-0 border-0 swiper-slide">
+                <div class="container-fluid d-flex justify-content-end p-0 m-0 testimonial-card-container">
+                  <figure class="testimonial-img">
+                    <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/testimonials-2.png" alt="" class="rounded-circle">
+                  </figure>
+                  <div class="d-flex flex-column bg-white testimonial-card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-flex flex-column mt-3">
+                        <h5 class="inter-medium-font mb-1">Kathryn Murphy</h5>
+                        <p class="text-muted">Engineering</p>
+                      </span>
+                      <span class="d-flex">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                      </span>
+                    </div>
+                    <span class="mt-2">
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                    </span>
+                    <p class="mt-4 text-muted">Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean</p>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-0 border-0 swiper-slide">
+                <div class="container-fluid d-flex justify-content-end p-0 m-0 testimonial-card-container">
+                  <figure class="testimonial-img">
+                    <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/testimonials-2.png" alt="" class="rounded-circle">
+                  </figure>
+                  <div class="d-flex flex-column bg-white testimonial-card-body">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-flex flex-column mt-3">
+                        <h5 class="inter-medium-font mb-1">Kathryn Murphy</h5>
+                        <p class="text-muted">Engineering</p>
+                      </span>
+                      <span class="d-flex">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                         <img src="./images/Capture-removebg-preview.png" alt="" width="28" height="52">
+                      </span>
+                    </div>
+                    <span class="mt-2">
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                      <i class="fa-solid fa-star text-primary"></i>
+                    </span>
+                    <p class="mt-4 text-muted">Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="container-fluid py-5 m-0">
+    <div class="d-flex flex-column mx-auto py-5 blog-container">
+      <div class="d-flex container-fluid p-0 m-0 justify-content-between">
+        <span class="d-flex flex-column col-7">
+          <div class="d-flex">
+            <span class="d-flex align-items-start">
+              <img src="./images/icons8-usb-type-c-40.png" alt="icon" width="40px" height="40px">
+            </span>
+            <span class="d-flex align-items-center">
+              <p class="fw-semibold ms-2 text-primary inter-medium-font">TESTIMONIALS</p>
+            </span>
+          </div>
+          <h3 class="about-section-header text-dark" style="font-size: 40px; font-weight: 700; line-height: 46px;">Latest Blog Insights</h3>
+        </span>
+        <span class="mb-0 d-flex align-items-end col-3 justify-content-end">
+          <button class="rounded-0 button" style="padding: 18px 20px;">
+            <small class="roboto-medium-font nav-text text-white position-relative">VIEW ALL
+              <img src="./images/icons8-vertical-line-20.png" alt="" height="16px"> 
+              <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;"></i>
+            </small>
+          </button>
+        </span>
+      </div>
+      <div class="container-fluid p-0 mt-4 d-flex justify-content-between flex-wrap blog-card-container">
+        <div class="card rounded-0 border-0 shadow blog-card">
+          <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/blog-5.jpg" class="card-img-top w-100 rounded-0" alt="...">
+          <div class="card-body blog-card-body" style="padding: 30px;">
+            <span class="d-flex" style="border-bottom: 1px solid rgb(236, 236, 236); gap: 30px;">
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                </a>
+                <span>
+                  <small>By wotech</small>
+                </span>
+              </span>
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <img src="./images/icons8-calendar-16.png" alt="calender">
+                </a>
+                <span>
+                  <small>January 5, 2024</small>
+                </span>
+              </span>
+            </span>
+            <h3 class="card-header-text inter-medium-font mt-3" style="font-size: 22px;">
+              <a href="#" >Rebecca’s New Album Aid for the Needy</a>
+            </h3>
+            <button class="rounded-0 button-one mt-3" style="padding: 12px 20px;">
+              <small class="roboto-medium-font nav-text position-relative">READ MORE
+                <img src="./images/icons8-vertical-line-20.png" alt="" height="16px"> 
+                <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;"></i>
+              </small>
+            </button>
+          </div>
+        </div>
+        <div class="card rounded-0 border-0 shadow blog-card">
+          <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/blog-5.jpg" class="card-img-top w-100 rounded-0" alt="...">
+          <div class="card-body blog-card-body" style="padding: 30px;">
+            <span class="d-flex" style="border-bottom: 1px solid rgb(236, 236, 236); gap: 30px;">
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                </a>
+                <span>
+                  <small>By wotech</small>
+                </span>
+              </span>
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <img src="./images/icons8-calendar-16.png" alt="calender">
+                </a>
+                <span>
+                  <small>January 5, 2024</small>
+                </span>
+              </span>
+            </span>
+            <h3 class="card-header-text inter-medium-font mt-3" style="font-size: 22px;">
+              <a href="#" >Rebecca’s New Album Aid for the Needy</a>
+            </h3>
+            <button class="rounded-0 button-one mt-3" style="padding: 12px 20px;">
+              <small class="roboto-medium-font nav-text" style="position: relative;">READ MORE
+                <img src="./images/icons8-vertical-line-20.png" alt="" height="16px"> 
+                <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;"></i>
+              </small>
+            </button>
+          </div>
+        </div>
+        <div class="card rounded-0 border-0 shadow blog-card">
+          <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/blog-5.jpg" class="card-img-top w-100 rounded-0" alt="...">
+          <div class="card-body blog-card-body" style="padding: 30px;">
+            <span class="d-flex" style="border-bottom: 1px solid rgb(236, 236, 236); gap: 30px;">
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                </a>
+                <span>
+                  <small>By wotech</small>
+                </span>
+              </span>
+              <span class="d-flex mb-3">
+                <a href="#" class="me-2">
+                  <img src="./images/icons8-calendar-16.png" alt="calender">
+                </a>
+                <span>
+                  <small>January 5, 2024</small>
+                </span>
+              </span>
+            </span>
+            <h3 class="card-header-text inter-medium-font mt-3" style="font-size: 22px;">
+              <a href="#" >Rebecca’s New Album Aid for the Needy</a>
+            </h3>
+            <button class="rounded-0 button-one mt-3" style="padding: 12px 20px;">
+              <small class="roboto-medium-font nav-text position-relative">READ MORE
+                <img src="./images/icons8-vertical-line-20.png" alt="" height="16px"> 
+                <i class="bi bi-arrow-right mb-0" style="font-size: 16px; height: 16px;"></i>
+              </small>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid brand-section-container py-5">
+    <div class="mx-auto d-flex flex-column p-0 brand-content-wrapper">
+      <div class="container-fluid w-100 swiper">
+        <div class="container-fluid p-0 m-0 brand-slide-container w-100">
+          <div class="container-fluid d-flex p-0 swiper-wrapper">
+            <span class="swiper-slide d-flex justify-content-center">
+              <a href="#">
+                <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/brand_logo_04.png" alt="">
+              </a>
+            </span>
+            <span class="swiper-slide d-flex justify-content-center">
+              <a href="#">
+                <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/brand_logo_04.png" alt="">
+              </a>
+            </span>
+            <span class="swiper-slide d-flex justify-content-center">
+              <a href="#">
+                <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/brand_logo_04.png" alt="">
+              </a>
+            </span>
+            <span class="swiper-slide d-flex justify-content-center">
+              <a href="#">
+                <img decoding="async" src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/04/brand_logo_04.png" alt="">
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid p-0 m-0 footer-section" style="background-color: #102039;">
+    <div class="footer-content-warpper mx-auto m-0 d-grid" style="width: 87%; padding: 100px 0px;">
+      <div class="row g-4">
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+          <div class="footer-widget-1 d-flex flex-column">
+            <div class="footer_logo_with_text">
+              <figure class="image">
+                <a href="https://gramentheme.com/wp/wotech">
+                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/03/logo-white.svg" alt="Footer Logo">
+                </a>
+              </figure>
+              <p class="text-white" style="margin-top: 40; margin-bottom: 30;">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+            </div>
+            <div class="footer-socials d-flex">
+              <div class="footer-socials-container d-flex justify-content-between" style="width: 70%;">
+                <span class="border d-flex justify-content-center" style="width: 22%;">
+                  <a href="#" class="p-2">
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                  </a>
+                </span>
+                <span class="border d-flex justify-content-center" style="width: 22%;">
+                  <a href="#" class="p-2">
+                    <i class="fa-brands fa-twitter text-white"></i>
+                  </a>
+                </span>
+                <span class="border d-flex justify-content-center" style="width: 22%;">
+                  <a href="#" class="p-2">
+                    <i class="fa-brands fa-linkedin-in text-white"></i>
+                  </a>
+                </span>
+                <span class="border d-flex justify-content-center" style="width: 22%;">
+                  <a href="#" class="p-2">
+                    <i class="fa-brands fa-youtube text-white"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 mx-0">
+          <div class="footer-info-links">
+            <div class="footer-links-container d-flex flex-column" style="padding-left: 50px;">
+              <span class="mb-4">
+                <h4 class="text-white mb-0">Quick Links</h4>
+              </span>
+              <a href="#" style=" margin-bottom: 14px; font-style: normal; font-weight: 400;
+              line-height: 28px;">
+                <i class="fa-solid fa-angles-right"></i> About us
+              </a>
+              <a href="#" style=" margin-bottom: 14px; font-style: normal; font-weight: 400;
+              line-height: 28px;">
+                <i class="fa-solid fa-angles-right"></i> About us
+              </a>
+              <a href="#" style=" margin-bottom: 14px; font-style: normal; font-weight: 400;
+              line-height: 28px;"">
+                <i class="fa-solid fa-angles-right"></i> About us
+              </a>
+              <a href="#" style=" margin-bottom: 14px; font-style: normal; font-weight: 400;
+              line-height: 28px;"">
+                <i class="fa-solid fa-angles-right"></i> About us
+              </a>
+              <a href="#" style=" margin-bottom: 14px; font-style: normal; font-weight: 400;
+              line-height: 28px;"">
+                <i class="fa-solid fa-angles-right"></i> About us
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 d-flex flex-column p-0">
+          <h4 class="mb-4  text-white">Latest Posts</h4>
+          <div class="widgets_latest_posts d-flex flex-column container-fluid p-0">
             <span class="d-flex justify-content-between">
-              <span class="service-icon d-flex align-items-start" style="width: 16%;">
-                <div class="p-3" style="background-color: rgb(232, 244, 255);">
-                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-three-icon1.png" alt="business-growth-icon">
-                </div>
-              </span>
-              <span class="d-flex flex-column d-flex align-items-end" style="width: 78%;">
-                <div class="d-flex flex-column w-100 py-2">
-                  <h5 class="roboto-medium mb-2">Business Growth</h5>
+              <a href="#" class="col-4">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/blog-details-learge-img-150x150.png" alt="" width="85" height="85" class="rounded-2">
+              </a>
+              <div class="d-flex flex-column col-8">
+                <span class="d-flex mb-3">
+                  <a href="#" class="me-2">
+                    <img src="./images/icons8-calendar-16.png" alt="calender">
+                  </a>
                   <span>
-                    <p class="text-muted">Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+                    <small class="text-white">January 5, 2024</small>
                   </span>
-                </div>
-              </span>
+                </span>
+                <h3 class="latest-post-title" style="font-size: 18px;">
+                  <a href="#" >Rebecca’s New Album Aid for</a>
+                </h3>
+              </div>
             </span>
-            <span class="d-flex justify-content-between">
-              <span class="service-icon d-flex align-items-start" style="width: 16%;">
-                <div class="p-3" style="background-color: rgb(232, 244, 255);">
-                  <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/02/about-three-icon1.png" alt="business-growth-icon">
-                </div>
-              </span>
-              <span class="d-flex flex-column d-flex align-items-end" style="width: 78%;">
-                <div class="d-flex flex-column w-100 py-2">
-                  <h5 class="roboto-medium mb-2">Technology Consultancy</h5>
+            <span class="d-flex justify-content-between mt-3">
+              <a href="#" class="col-4">
+                <img src="https://gramentheme.com/wp/wotech/wp-content/uploads/2024/01/blog-details-learge-img-150x150.png" alt="" width="85" height="85" class="rounded-2">
+              </a>
+              <div class="d-flex flex-column col-8">
+                <span class="d-flex mb-3">
+                  <a href="#" class="me-2">
+                    <img src="./images/icons8-calendar-16.png" alt="calender">
+                  </a>
                   <span>
-                    <p class="text-muted">Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks</p>
+                    <small class="text-white">January 5, 2024</small>
                   </span>
-                </div>
-              </span>
+                </span>
+                <h3 class="latest-post-title " style="font-size: 18px;">
+                  <a href="#" >Rebecca’s New Album Aid for</a>
+                </h3>
+              </div>
             </span>
-            <span>
-              <button class="btn btn-primary rounded-0 p-3" style="width: 35%;"> 
-                <small class="roboto-medium">ABOUT US | <i class="bi bi-arrow-right"></i></small>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 p-0">
+          <div class="footer-news_letter_form px-4" style="padding-right: 30px;">
+            <h4 class="text-white">Newsletter</h4>
+            <p class="text-white">Sign Up for News & Get 30% off in New User</p>
+            <form action="">
+              <span class="footer-subscribe">
+                <input type="email" class="form-control p-3 rounded-0" placeholder="Your email address">
+              </span>
+              <button type="button" class="rounded-0 button mt-2 w-100" style="padding: 20px 24px;">
+                <small class="roboto-medium-font nav-text" style="position: relative;">SUBSCRIBE NOW</small>
               </button>
-            </span>
-          </span>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./scripts/swiper-bundle.min.js"></script>
+  <script src="./scripts/index.js"></script>
   </body>
 </html>
