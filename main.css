@@ -1,14 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
- font-family: "Roboto", sans-serif;
+ font-family: "Poppins", serif;
  min-height: 100vh;
 
+}
+li a{
+   text-decoration: none;
+}
+.nav-menu, .nav-menu * {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+ol, ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+ol, ul, dl {
+   margin-top: 0;
+   margin-bottom: 1rem;
 }
  p{
   color: #787878;
@@ -22,26 +38,6 @@ body {
  a{
    text-decoration: none;
  }
- .inter-regular-font {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: normal;
- }
- .roboto-medium-font {
-   font-family: "Roboto", sans-serif;
-   font-weight: 500;
-   font-style: normal;
-}
- .inter-medium-font {
-    font-family: 'Inter', sans-serif;
-    font-weight: 550;
-    font-style: normal;
-}
-.inter-bold-font {
-   font-family: 'Inter', sans-serif;
-   font-weight: 700;
-   font-style: normal;
-}
 
 /*.inter-medium-italic {
    font-family: 'Inter', sans-serif;
@@ -108,32 +104,34 @@ body {
    animation-delay: 1500ms; 
    animation-name: animate-left;
    animation-duration: 1.35s;
-   max-width: 720px;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
 }
 .banner-sub-title{
    color: #fff;
    font-size: 18px;
    font-style: normal;
    font-weight: 600;
-   line-height: 32px;
+   line-height: 80px;
    letter-spacing: 9px;
    text-transform: uppercase;
 }
 .banner-title{
    color: #FFF;
-   font-size: 64px;
+   font-size: 76px;
    font-style: normal;
    font-weight: 700;
-   line-height: 77px;
-   padding: 20px 0;
+   line-height: 100px;
 }
 .banner-text{
    color: #FFF;
    font-size: 18px;
    font-style: normal;
    font-weight: 500;
+   width: 70%;
    line-height: 32px;
-   padding-bottom: 40px;
    padding-right: 29px;
 }
 .button-one:hover::before{
@@ -143,143 +141,33 @@ body {
 .button-one:hover{
    color: white;
 }
-
-.dropdown-link-one {
-   font-size: 16px;
-   border: none;
-   position: relative;
- }
- .dropdown-element-one{
-   position: relative;
-   display: inline-block;
-   top: 0;
- }
- .dropdown-content-one {
-   display: none;
-   position: absolute;
-   top: 96px;
-   background-color: white;
-   min-width: 240px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 6;
- }
- .dropdown-content-one a {
-   font-family: "Roboto", sans-serif;
-   font-weight: 600;
-   color: black;
-   padding: 14px 20px;
-   text-decoration: none;
-   display: block;
-   border-bottom: 1px solid rgb(245, 245, 245);
- }
- .dropdown-content-one a:hover {background-color: #5976fa; color: white;}
-
-/* Show the dropdown menu on hover */
-.dropdown-element-one:hover .dropdown-content-one {display: block;}
- 
-.dropdown-link-two {
-   font-size: 16px;
-   border: none;
-   position: relative;
- }
- .dropdown-element-two{
-   position: relative;
-   display: inline-block;
-   top: 0;
- }
- .dropdown-content-two {
-   display: none;
-   position: absolute;
-   top: 96px;
-   background-color: white;
-   min-width: 240px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 6;
- }
- .dropdown-content-two a {
-   font-family: "Roboto", sans-serif;
-   font-weight: 600;
-   color: black;
-   padding: 14px 20px;
-   text-decoration: none;
-   display: block;
-   border-bottom: 1px solid rgb(245, 245, 245);
- }
- .dropdown-content-two a:hover {background-color: #5976fa; color: white;}
-
-/* Show the dropdown menu on hover */
-.dropdown-element-two:hover .dropdown-content-two {display: block;}
- 
-.dropdown-link-three {
-   font-size: 16px;
-   border: none;
-   position: relative;
- }
- .dropdown-element-three{
-   position: relative;
-   display: inline-block;
-   top: 0;
- }
- .dropdown-content-three {
-   display: none;
-   position: absolute;
-   top: 96px;
-   background-color: white;
-   min-width: 240px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 6;
- }
- .dropdown-content-three a {
-   font-family: "Roboto", sans-serif;
-   font-weight: 600;
-   color: black;
-   padding: 14px 20px;
-   text-decoration: none;
-   display: block;
-   border-bottom: 1px solid rgb(245, 245, 245);
- }
- .dropdown-content-three a:hover {background-color: #5976fa; color: white;}
-
- .dropdown-element-three:hover .dropdown-content-three {display: block;}
-
- .dropdown-link-four {
-   font-size: 16px;
-   border: none;
-   position: relative;
- }
- .dropdown-element-four{
-   position: relative;
-   display: inline-block;
-   top: 0;
- }
- .dropdown-content-four {
-   display: none;
-   position: absolute;
-   top: 96px;
-   background-color: white;
-   min-width: 240px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 6;
- }
- .dropdown-content-four a {
-   font-family: "Roboto", sans-serif;
-   font-weight: 600;
-   color: black;
-   padding: 14px 20px;
-   text-decoration: none;
-   display: block;
-   border-bottom: 1px solid rgb(245, 245, 245);
- }
- .dropdown-content-four a:hover {background-color: #5976fa; color: white;}
-
-/* Show the dropdown menu on hover */
-.dropdown-element-four:hover .dropdown-content-four {display: block;}
-/*.navbar-brand{
-   height: 38px;
+.banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
+   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-.offcanvas-button{
-  font-size: 65px;
-}*/
+
+.primary-btn {
+   background: #8490ff;
+   line-height: 42px;
+   padding-left: 30px;
+   padding-right: 30px;
+   margin-top: 20px;
+   border: none;
+   color: #fff;
+   display: inline-block;
+   font-weight: 500;
+   position: relative;
+   -webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   position: relative;
+}
+.text-uppercase {
+   text-transform: uppercase !important;
+}
 .collapse:not(.show) {
    display: block;
 }
@@ -287,15 +175,6 @@ body {
    animation: fade-left 2s ease-in-out 0s forwards;
 }
 
-.carosuel-header-subtitle {
-   color: #fff;
-   font-size: 18px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: 32px;
-   letter-spacing: 9px;
-   text-transform: uppercase;
-}
 .about-us-item-one:before{
    position: absolute;
    top: 0;
@@ -837,9 +716,6 @@ min-width 1200px	Monitors, Desktops
       left: 0px; 
       z-index: 99;
    }
-   .service-content-wrapper{
-      width: 95%;
-   }
    .inquiry-section-container{
       display: flex;
       flex-direction: column;
@@ -925,10 +801,9 @@ min-width 1200px	Monitors, Desktops
       padding: 60px 60px 60px 100px;
    }
    .banner-main{
-   padding: 210px 0px;
+   padding: 180px 0px;
    }
    .banner-area{
-      max-width: 720px;
       padding-left: 70px;
    }
    /*.carousel-paragraph-text, .about-paragraph-text{
@@ -1046,7 +921,7 @@ min-width 1200px	Monitors, Desktops
       display: block;
    }
    .navbar-expand-xl{
-    width: 85%;
+    width: 90%;
     box-shadow: none;
    }
    .navbar-expand-xl .navbar-nav {
@@ -1063,10 +938,7 @@ min-width 1200px	Monitors, Desktops
    .our-service-container{
       display: flex;
       flex-direction: row;
-      width: 87%;
-   }
-   .service-content-wrapper{
-      width: 87%;
+      width: 90%;
    }
    .card-wrapper{
       flex-wrap: nowrap;
